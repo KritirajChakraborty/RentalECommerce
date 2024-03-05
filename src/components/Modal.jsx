@@ -27,7 +27,7 @@ const Modal = forwardRef( function Modal({quantity,title,price},ref){
     
 
     return createPortal((
-        <dialog ref={dialog} className="fixed z-50 inset-0 overflow-y-auto">
+        <dialog ref={dialog} className="fixed z-50 inset-0 overflow-y-auto border-none">
         {/* Background overlay */}
         <div className="fixed inset-0 bg-black bg-opacity-60"></div>
       
@@ -39,10 +39,10 @@ const Modal = forwardRef( function Modal({quantity,title,price},ref){
             <p className="font-primary font-semibold mb-4">{`Your total bill monthly will be ₹${quantity * price} + ₹5000(one time payment) for security deposit.`}</p>
             <form action="dialog" className="flex flex-row gap-6 justify-center text-center">
               <Link to='/shop'>
-                <button onClick={handleCancel} className="bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-700">Cancel</button>
+                <button onClick={handleCancel} className="bg-orange-500 text-white px-4 py-2 border-none hover:bg-orange-700">Cancel</button>
               </Link>
               <Link to='/'>
-                <button onClick={handleClick} className="bg-black text-white px-4 py-2 rounded hover:bg-gray-900">Checkout</button>
+                <button onClick={handleClick} className="bg-black text-white px-4 py-2 border-none hover:bg-gray-900">Checkout</button>
               </Link>
             </form>
           </div>
