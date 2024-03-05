@@ -32,7 +32,7 @@ const Navbar = () => {
 
         {/* for mobile devices */}
         <div className="sm:hidden">
-            <button onClick={handleClick}>{ mobileMenuOpen ? <FaTimes className="w-6 h-6 text-Black"/> :<FaBars className="w-6 h-6 text-Black"/>}</button>
+            <button className="border-none" onClick={handleClick}>{ mobileMenuOpen ? <FaTimes className="w-6 h-6 text-Black"/> :<FaBars className="w-6 h-6 text-Black"/>}</button>
         </div>
 
         </nav>

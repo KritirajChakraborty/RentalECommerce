@@ -36,6 +36,7 @@ export default function BestSeller (){
       
         pagination={{
           clickable: true,
+          
         }}
         breakpoints={{
             640: {
@@ -57,12 +58,14 @@ export default function BestSeller (){
       >
         {
             products.map((product) => (
-                <SwiperSlide key={product.id}>
+                <SwiperSlide key={product.id}  >
                  <li key ={product.id} className="hover:scale-105 transition-all duration-300 h-full">
                     <Link to={`/shop/${product.id}`}>
-                    <img src={product.image} alt="" className='w-[254px] h-[254px]'/>
+                   <div className='pb-10'>
+                    <img src={product.image} alt=""/>
                     <p className="font-primary text-Black font-semibold">{product.title}</p>
                     <p>₹{product.price}</p>
+                    </div>
                 </Link>
                 </li>
                 </SwiperSlide>

@@ -10,10 +10,10 @@ export default function Footer() {
       window.scrollTo({top: 0, behavior: 'smooth'});
     }
   return (
-    <footer>
+    <footer className="max-w-screen-2xl mx-auto ">
         {/* footer top */}
-      <div className="max-w-screen-2xl container mx-auto xl:px-28 px-4">
-        <div className="mt-20 mb-10 flex flex-col md:flex-row items-start justify-between gap-8">
+      <div>
+        <div className="mt-20 mb-10 px-4 xl:px-28 flex flex-col md:flex-row items-start justify-between gap-8">
           {/* company info */}
           <div className="md:w-[400px]">
             <Link to="/">
