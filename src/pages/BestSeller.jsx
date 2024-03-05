@@ -22,7 +22,7 @@ export default function BestSeller (){
     },[])
    
     return (
-        <div className="max-w-screen-2xl container mx-auto md:px-28 mt-16 px-4 py-6">
+        <div className="max-w-screen-2xl mx-auto md:px-28 mt-16 px-4 py-6">
             <div className="item-center">
                 <h2 className="font-primary text-3xl font-semibold text-center capitalize p-1 m-1">Best Sellers</h2>
                 <p className="text-Black/75 capitalize md:w-2/3 mx-auto mb-8 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, nesciunt voluptatem. Maiores aliquid voluptatum ipsam quas earum nobis voluptate ea Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo atque perferendis placeat adipisci nostrum quasi a nihil nisi dolorum consectetur!.</p>
