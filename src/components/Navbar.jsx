@@ -19,7 +19,7 @@ const Navbar = () => {
         setMobileMenuOpen((prevState) => !prevState)
     }
   return (
-    <header className="max-w-screen-2xl xl:px-28 px-4 absolute top-0 left-0 right-0">
+    <header className="max-w-screen-2xl mx-auto xl:px-28 px-4 absolute top-0 left-0 right-0">
         <nav className="flex justify-between container sm:py-4 pt-6 pb-3">
         <FaSearch className="text-Black w-6 h-6 cursor-pointer hidden md:block" />
         <a href="/"><h1 className="font-primary text-3xl font-bold sm:text-xl">RentExchange</h1></a>

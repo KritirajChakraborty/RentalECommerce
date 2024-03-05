@@ -14,7 +14,7 @@ export default function Shop() {
         setFilteredItems(filteredItems)
      }
     return(
-        <div className="mt-40 max-w-screen-2xl text-center md:px-28 px-4 py-6">
+        <div className="mt-40 max-w-screen-2xl mx-auto text-center md:px-28 px-4 py-6">
               <div className="flex items-center gap-2 pt-8 text-Black/50">
         <a href="/">Home</a> <a href="/shop" className="font-semibold text-black">/ Shop</a>
       </div>

@@ -3,7 +3,7 @@ export default function Newsletter(){
          event.preventDefault();
     }
     return (
-        <div className="bg-gray-100 p-10">
+        <div className="bg-gray-100 p-10 mx-auto">
         <h2 className="text-3xl font-semibold text-center capitalize mb-8">
         Or subscribe to the newsletter
         </h2>
