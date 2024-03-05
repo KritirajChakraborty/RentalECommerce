@@ -36,22 +36,22 @@ export default function Footer() {
             <h4 className="font-semibold mb-3">CATALOG</h4>
             <div className="flex flex-col justify-between space-y-2">
               <Link to="/shop" >
-                <button onClick={handleClick} className="text-sm block hover:text-orange-500">
+                <button  onClick={handleClick} className="text-sm block hover:text-orange-500 border-none">
                 Furnitures
                 </button>
               </Link>
               <Link to="/shop" >
-                <button onClick={handleClick} className="text-sm block hover:text-orange-500">
+                <button onClick={handleClick} className="text-sm block hover:text-orange-500 border-none">
                 Electronics
                 </button>
               </Link>
               <Link to="/shop" >
-                <button onClick={handleClick} className="text-sm block hover:text-orange-500">
+                <button onClick={handleClick} className="text-sm block hover:text-orange-500 border-none">
                 Bed
                 </button>
               </Link>
               <Link to="/shop" >
-                <button onClick={handleClick} className="text-sm block hover:text-orange-500">
+                <button onClick={handleClick} className="text-sm block hover:text-orange-500 border-none">
                Utility
                 </button>
               </Link>

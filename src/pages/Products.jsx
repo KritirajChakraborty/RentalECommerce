@@ -42,10 +42,10 @@ export default function Products(){
             {/* btns */}
             <div className="flex flex-col md:flex-row justify-between py-6 lg:px-28 px-4">
                 <div className="flex flex-col md:flex-row flex-wrap justify-start md:gap-8 gap-2 border-none ">
-                    <button onClick={() => handleFilter('all')}>All Products</button>
-                    <button onClick={() => handleFilter('Furniture')}>Furniture</button>
-                    <button onClick={() => handleFilter('Electronics')}>Electronics</button>
-                    <button onClick={() => handleFilter('Utility')}>Utility</button>
+                    <button className="border-none" onClick={() => handleFilter('all')}>All Products</button>
+                    <button className="border-none" onClick={() => handleFilter('Furniture')}>Furniture</button>
+                    <button className="border-none" onClick={() => handleFilter('Electronics')}>Electronics</button>
+                    <button className="border-none" onClick={() => handleFilter('Utility')}>Utility</button>
                 </div>
 
                 {/* sorting options */}
