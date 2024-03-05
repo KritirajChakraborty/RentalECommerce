@@ -25,7 +25,7 @@ export default function Shop() {
                     <button className="border-none" onClick={() => handleFilter('all')}>All Products</button>
                     <button className="border-none" onClick={() => handleFilter('Furniture')}>Furniture</button>
                     <button className="border-none" onClick={() => handleFilter('Electronics')}>Electronics</button>
-                    <button onClick={() => handleFilter('Utility')}>Utility</button>
+                    <button className="border-none" onClick={() => handleFilter('Utility')}>Utility</button>
                     <button className="border-none" onClick={() => handleFilter('AC')}>AC</button>
                     <button className="border-none" onClick={() => handleFilter('Bed')}>Bed</button>
                 </div>

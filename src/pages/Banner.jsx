@@ -14,7 +14,7 @@ const Banner = () => {
         <h2 className='text-Black font-light text-5xl mb-5'>Collections</h2>
         <p className='pt-2 text-Black text-xl mb-7'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur alias qui deleniti cumque asperiores repudiandae maiores deserunt neque magnam officiis!</p>
         <Link to='/shop'>
-        <button className='flex items-center gap-2 bg-Black text-white font-primary px-4 py-2 mt-2 hover:bg-orange-500'><FaShoppingBag className='inline-flex'/> Shop now</button>
+        <button className='flex items-center gap-2 border-none bg-Black text-white font-primary px-4 py-2 mt-2 hover:bg-orange-500'><FaShoppingBag className='inline-flex'/> Shop now</button>
         </Link>
       </div>
      
