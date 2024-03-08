@@ -15,7 +15,7 @@ const brandLogo = [
 
 export default function Category(){
     return (
-        <div className="max-w-screen-2xl mx-auto container md:px-28 px-4 py-28">
+        <div className="max-w-screen-2xl mx-auto md:px-28 px-4 py-28">
             {/* brand logos */}
             <div className="m-2 px-6 py-10">
                 <ul className="flex flex-col md:flex-row items-center justify-between">

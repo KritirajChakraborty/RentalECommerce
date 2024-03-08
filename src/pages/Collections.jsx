@@ -5,7 +5,7 @@ export default function Collections(){
         window.scrollTo({top: 0, behavior: 'smooth' })
     }
     return (
-        <div className='bg-[url("/bgImg.jpg")] bg-cover bg-center bg-no-repeat max-w-screen-2xl mx-auto xl:px-28 px-4'>
+        <div className='bg-[url("/bgImg.jpg")] bg-cover bg-center bg-no-repeat max-w-screen-2xl mx-auto md:px-28 px-4'>
             <div className='h-[500px] flex flex-col md:flex-row'>
                 <div className='md:w-1/2'></div>
                  <div className='md:w-1/2 pt-32'>

@@ -30,7 +30,7 @@ export default function SingleProduct(){
     return (
       <>
       <Modal ref={quantity} quantity={selectedProductQuantity} title={productDetails.title} price={productDetails.price}/>
-        <div className="mt-28 max-w-screen-2xl container mx-auto md:px-28 px-4 py-6">
+        <div className="mt-28 max-w-screen-2xl mx-auto md:px-28 px-4 py-6">
              <div className="flex items-center gap-2 pt-8 text-Black/50">
         <a href="/">Home</a> <a href="/shop" className="font-semibold text-black">/ Shop</a>
       </div>

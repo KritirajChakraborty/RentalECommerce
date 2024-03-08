@@ -37,7 +37,7 @@ export default function Products(){
           setFilteredItems(sortedItems);
      }
     return (
-        <div className="max-w-screen-2xl mx-auto xl:px-28 px-4 mb-16">
+        <div className="max-w-screen-2xl mx-auto md:px-28 px-4 mb-16">
             <h3 className="font-primary text-3xl font-semibold text-center capitalize p-1 m-1">Suscribe to our Newsletter</h3>
 
             {/* btns */}

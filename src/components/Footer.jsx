@@ -4,16 +4,16 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
-    const currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
 
-    function handleClick(){
-      window.scrollTo({top: 0, behavior: 'smooth'});
-    }
+  function handleClick() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
   return (
     <footer className="max-w-screen-2xl mx-auto ">
-        {/* footer top */}
+      {/* footer top */}
       <div>
-        <div className="mt-20 mb-10 px-4 xl:px-28 flex flex-col md:flex-row items-start justify-between gap-8">
+        <div className="mt-20 mb-10 px-4 md:px-28 flex flex-col md:flex-row items-start justify-between gap-8">
           {/* company info */}
           <div className="md:w-[400px]">
             <Link to="/">
@@ -35,24 +35,36 @@ export default function Footer() {
           <div className="text-Black">
             <h4 className="font-semibold mb-3">CATALOG</h4>
             <div className="flex flex-col justify-between space-y-2">
-              <Link to="/shop" >
-                <button  onClick={handleClick} className="text-sm block hover:text-orange-500 border-none">
-                Furnitures
+              <Link to="/shop">
+                <button
+                  onClick={handleClick}
+                  className="text-sm block hover:text-orange-500 border-none"
+                >
+                  Furnitures
                 </button>
               </Link>
-              <Link to="/shop" >
-                <button onClick={handleClick} className="text-sm block hover:text-orange-500 border-none">
-                Electronics
+              <Link to="/shop">
+                <button
+                  onClick={handleClick}
+                  className="text-sm block hover:text-orange-500 border-none"
+                >
+                  Electronics
                 </button>
               </Link>
-              <Link to="/shop" >
-                <button onClick={handleClick} className="text-sm block hover:text-orange-500 border-none">
-                Bed
+              <Link to="/shop">
+                <button
+                  onClick={handleClick}
+                  className="text-sm block hover:text-orange-500 border-none"
+                >
+                  Bed
                 </button>
               </Link>
-              <Link to="/shop" >
-                <button onClick={handleClick} className="text-sm block hover:text-orange-500 border-none">
-               Utility
+              <Link to="/shop">
+                <button
+                  onClick={handleClick}
+                  className="text-sm block hover:text-orange-500 border-none"
+                >
+                  Utility
                 </button>
               </Link>
             </div>
@@ -100,12 +112,12 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
       {/* footer bottom */}
       <div className="bg-Black">
-      <p className="text-white text-center items-center py-3">© {currentYear} RentExchange, Inc.</p>
+        <p className="text-white text-center items-center py-3">
+          © {currentYear} RentExchange, Inc.
+        </p>
       </div>
     </footer>
   );
-};
-
+}
