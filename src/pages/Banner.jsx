@@ -4,7 +4,7 @@ import wardrobe from '/wardrobe.jpg'
 
 const Banner = () => {
   return (
-    <div className='bg-primaryBG max-w-screen-2xl pt-10 mx-auto xl:px-28 px-4'>
+    <div className='bg-primaryBG max-w-screen-2xl pt-10 mx-auto md:px-28 px-4'>
     <div className='py-28 flex flex-col sm:flex-row-reverse gap-14 justify-between items-center'>
     <div className='md:w-1/2'>
         <img src={wardrobe} alt="Photo" className='mx-auto h-full w-full md:h-[562px] md:w-[442px] rounded-md' />
