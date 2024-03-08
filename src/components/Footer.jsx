@@ -10,9 +10,10 @@ export default function Footer() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
   return (
-    <footer className="max-w-screen-2xl mx-auto ">
-      {/* footer top */}
-      <div>
+    <>
+      <footer className="max-w-screen-2xl mx-auto ">
+        {/* footer top */}
+
         <div className="mt-20 mb-10 px-4 md:px-28 flex flex-col md:flex-row items-start justify-between gap-8">
           {/* company info */}
           <div className="md:w-[400px]">
@@ -111,13 +112,13 @@ export default function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </footer>
       {/* footer bottom */}
       <div className="bg-Black">
         <p className="text-white text-center items-center py-3">
           © {currentYear} RentExchange, Inc.
         </p>
       </div>
-    </footer>
+    </>
   );
 }
