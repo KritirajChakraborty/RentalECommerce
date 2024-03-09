@@ -1,18 +1,15 @@
-import { Outlet } from 'react-router-dom'
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import './App.css'
+import { Outlet } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import "./App.css";
+import MobileMenuContextProvider from "./store/context";
 
-function App() {
-
-
-  return ( 
-    <>
-    <Navbar/>
-    <Outlet/>
-    <Footer/>
-    </>
-  )
+export default function App() {
+  return (
+    <MobileMenuContextProvider>
+      <Navbar />
+      <Outlet />
+      <Footer />
+    </MobileMenuContextProvider>
+  );
 }
-
-export default App
