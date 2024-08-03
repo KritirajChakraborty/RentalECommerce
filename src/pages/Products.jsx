@@ -18,20 +18,27 @@ export default function Products() {
   }
 
   function handleSort(type) {
-    const sortedItems = [...filteredItems];
+    let sortedItems = [...filteredItems];
     console.log(sortedItems);
     switch (type) {
       case "A-Z":
         sortedItems.sort((a, b) => a.title.localeCompare(b.title));
+        setSortedoption(type);
         break;
       case "Z-A":
         sortedItems.sort((a, b) => b.title.localeCompare(a.title));
+        setSortedoption(type);
         break;
       case "low-to-high":
         sortedItems.sort((a, b) => a.price - b.price);
+        setSortedoption(type);
         break;
       case "high-to-low":
         sortedItems.sort((a, b) => b.price - a.price);
+        setSortedoption(type);
+        break;
+      case "default":
+        sortedItems = products;
         break;
       default:
         break;
@@ -78,7 +85,7 @@ export default function Products() {
           <select
             name="sort"
             id="sort"
-            multiple={true}
+            multiple={false}
             onChange={(event) => handleSort(event.target.value)}
             value={sortedOption}
             className="bg-black text-white rounded-sm px-1 py-1"
